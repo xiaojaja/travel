@@ -1,0 +1,49 @@
+{
+    "ret": true,
+    "data": {
+        "slightsList":[{
+            "imgSrc":"/img/ticket/1.jpg",
+            "sightName": "南京总统府(4A)",
+            "star":98,
+            "commentNum":54432,
+            "price":36.01,
+            "priceUnit":"￥",
+            "location":"玄武区",
+            "tags":["地址排名第一","受欢迎"],
+            "ticketItem":[
+                {"desc":"【当天8点前可预订】 成人票","price":"37","priceUnit":"￥"},    
+                {"desc":"【当天8点前可预订】 儿童票","price":"15","priceUnit":"￥"},    
+                {"desc":"【当天8点前可预订】 学生票","price":"21","priceUnit":"￥"}   
+            ]
+        },{
+            "imgSrc":"/img/ticket/2.png",
+            "sightName": "夫子庙(4A)",
+            "star":90,
+            "commentNum":54432,
+            "price":21,
+            "priceUnit":"￥",
+            "location":"秦淮区",
+            "tags":["地址排名第2"],
+            "ticketItem":[
+                {"desc":"【当天8点前可预订】 成人票","price":"37","priceUnit":"￥"},    
+                {"desc":"【当天8点前可预订】 儿童票","price":"15","priceUnit":"￥"},    
+                {"desc":"【当天8点前可预订】 学生票","price":"21","priceUnit":"￥"}   
+            ]
+        },{
+            "imgSrc":"/img/ticket/3.jpg",
+            "sightName": "大报恩寺",
+            "star":80,
+            "commentNum":54432,
+            "price":40,
+            "priceUnit":"￥",
+            "location":"秦淮区",
+            "tags":["地址排名第3","受欢迎"],
+            "ticketItem":[
+                {"desc":"【当天8点前可预订】 成人票","price":"37","priceUnit":"￥"},    
+                {"desc":"【当天8点前可预订】 儿童票","price":"15","priceUnit":"￥"},    
+                {"desc":"【当天8点前可预订】 学生票","price":"21","priceUnit":"￥"}   
+            ]
+        }
+    ]
+  }
+}
