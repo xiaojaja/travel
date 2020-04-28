@@ -60,13 +60,15 @@ export default {
     watch:{
         letter () {
             if(this.letter){
-                const element = this.$refs[this.letter][0]
-                this.scroll.scrollToElement(element)
+                console.log(this.$refs)
+                // const element = this.$refs[this.letter][0]
+                // this.scroll.scrollToElement(element)
             }
         }
     },
     methods:{
         handleCityClick(city){
+            // alert(city)
             // 触发store.js中action的changeCity方法
             // this.$store.dispatch('changeCity',city)
             // // 由于此次修改的数据很简单没有一部操作，故也可以不通过action转发

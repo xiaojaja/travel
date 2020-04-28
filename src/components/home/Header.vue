@@ -8,18 +8,20 @@
       <div class="text">输入城市/景点/游玩</div>
       </div>
     <div class="header-right">
-      <router-link to="/city"> {{this.$store.state.city}}</router-link>
+      <router-link to="/city"> {{this.city}}</router-link>
       <span class="iconfont icon-xiasanjiaoxing"></span>
     </div>
   </div>
 </template>
 
 <script>
+import {mapState} from 'vuex'
 export default {
   name:'HomeHeader',
-  props:{
-    city:String
-  }
+  computed:{
+    ...mapState(['city'])
+  },
+
 }
 </script>
 

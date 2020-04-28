@@ -22,6 +22,7 @@
 <script>
 
 import BScroll from 'better-scroll'
+import {mapMutations} from 'vuex'
 export default {
     name:'CitySearch',
     props:{
@@ -43,14 +44,16 @@ export default {
     methods:{
         handleCityClick(city){
             // 触发store.js中action的changeCity方法
-            this.$store.dispatch('changeCity',city)
+            // this.$store.dispatch('changeCity',city)
             // 由于此次修改的数据很简单没有一部操作，故也可以不通过action转发
             // ，可以直接转发到 mutation'
             // this.$store.commit('changeCity',city)
-
+            this.changeCity(city)
              // 点击城市之后跳转到首页
             this.$router.push('/');
-        }
+        },
+        ...mapMutations(['changeCity'])
+
     },
     watch : {
         // 监听输入
